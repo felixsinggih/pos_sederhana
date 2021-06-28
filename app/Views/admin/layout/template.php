@@ -9,21 +9,21 @@
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/adminlte/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/adminlte/adminlte_dist/css/adminlte.min.css">
 
     <!-- DataTables -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/adminlte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
 
     <!-- DatePicker -->
-    <script src="<?= base_url() ?>/datepicker/js/jquery-1.10.2.js"></script>
-    <link href="<?= base_url() ?>/datepicker/css/bootstrap-datepicker.css" rel="stylesheet" media="screen">
-    <link href="<?= base_url() ?>/datepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+    <script src="<?= base_url() ?>/adminlte/plugins/datepicker/js/jquery-1.10.2.js"></script>
+    <link href="<?= base_url() ?>/adminlte/plugins/datepicker/css/bootstrap-datepicker.css" rel="stylesheet" media="screen">
+    <link href="<?= base_url() ?>/adminlte/plugins/datepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
     <!-- JQueryUI -->
-    <link rel="stylesheet" href="<?= base_url() ?>/admin/plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/adminlte/plugins/jquery-ui/jquery-ui.min.css">
 
     <script>
         function isNumberKeyTrue(evt) {
@@ -86,7 +86,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="<?= base_url('dashboard') ?>" class="brand-link elevation-4">
-                <img src="<?= base_url() ?>/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="<?= base_url() ?>/adminlte/adminlte_dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -95,7 +95,7 @@
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url() ?>/admin/dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
+                        <img src="<?= base_url() ?>/adminlte/adminlte_dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block"><?php $name = session()->get('name');
@@ -165,23 +165,23 @@
     <!-- ./wrapper -->
 
     <!-- jQuery -->
-    <script src="<?= base_url() ?>/admin/plugins/jquery/jquery.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="<?= base_url() ?>/admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="<?= base_url() ?>/admin/dist/js/adminlte.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/adminlte_dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
-    <script src="<?= base_url() ?>/admin/dist/js/demo.js"></script>
+    <script src="<?= base_url() ?>/adminlte/adminlte_dist/js/demo.js"></script>
     <!-- DataTables -->
-    <script src="<?= base_url() ?>/admin/plugins/datatables/jquery.dataTables.min.js"></script>
-    <script src="<?= base_url() ?>/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-    <script src="<?= base_url() ?>/admin/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-    <script src="<?= base_url() ?>/admin/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
     <!-- DatePicker -->
-    <script src="<?= base_url() ?>/datepicker/js/bootstrap-datepicker.js"></script>
-    <script src="<?= base_url() ?>/datepicker/js/bootstrap-datetimepicker.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/datepicker/js/bootstrap-datetimepicker.js"></script>
     <!-- JQueryUI -->
-    <script src="<?= base_url() ?>/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="<?= base_url() ?>/adminlte/plugins/jquery-ui/jquery-ui.min.js"></script>
 
     <script>
         $(function() {
